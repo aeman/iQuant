@@ -43,13 +43,13 @@ def get_price(deal_date, s_type):
 
 def stock_deal(sp2, sp1, ma, kp0, deal_date, ins, cjl, mavol):
 	if (sp2 <= ma and sp1 >= ma and (not ins)):
-		#log.write('buy:\t%s\tsp2:%.2f\tsp1:%.2f\tma:%.2f\t\tkp0:%.2f\t\n' % (deal_date, sp2, sp1, ma, kp0))
-		log.write('%.2f\t' % kp0)
+		log.write('buy:\t%s\tsp2:%.2f\tsp1:%.2f\tma:%.2f\t\tkp0:%.2f\t\n' % (deal_date, sp2, sp1, ma, kp0))
+		#log.write('%.2f\t' % kp0)
 		return 1
 	elif ((sp2 >= ma and sp1 <= ma and ins) or (cjl / mavol > VOL_FAC and ins)):
-		#log.write('sell:\t%s\tsp2:%.2f\tsp1:%.2f\tma:%.2f\t\tkp0:%.2f\t\n' % (deal_date, sp2, sp1, ma, kp0))
-		log.write('%.2f\n' % kp0)
-		#log.write('-------------------------------------------------------------\n')
+		log.write('sell:\t%s\tsp2:%.2f\tsp1:%.2f\tma:%.2f\t\tkp0:%.2f\t\n' % (deal_date, sp2, sp1, ma, kp0))
+		#log.write('%.2f\n' % kp0)
+		log.write('-------------------------------------------------------------\n')
 		return -1
 	else:
 		#log.write('hold:\t%s\t sp2:%.2f\t sp1:%.2f\t ma:%.2f\t kp0:%.2f\t %r\n' % (deal_date, sp2, sp1, ma, kp0, ins))
