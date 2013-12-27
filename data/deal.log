@@ -1,10 +1,16 @@
 buy:	2008-07-01	price:13.79	cnt:324
 buy:	2008-07-02	price:12.41	cnt:648
 sell:	2008-07-07	price:13.79	cnt:972
-buy:	2008-09-22	price:11.03	cnt:405
-buy:	2008-10-07	price:9.93	cnt:810
-buy:	2008-10-10	price:8.93	cnt:1620
-buy:	2008-10-24	price:8.04	cnt:3240
-buy:	2008-10-27	price:7.24	cnt:6480
-sell:	2009-05-11	price:11.03	cnt:12555
-last_date:	all_money139439.57	all_count:0
+buy:	2008-09-04	price:12.41	cnt:360
+buy:	2008-09-12	price:11.17	cnt:720
+buy:	2008-10-07	price:10.05	cnt:1440
+buy:	2008-10-08	price:9.04	cnt:2880
+buy:	2008-10-24	price:8.14	cnt:5760
+sell:	2009-06-08	price:12.41	cnt:11160
+buy:	2009-08-31	price:11.17	cnt:400
+sell:	2009-09-02	price:11.72	cnt:400
+buy:	2011-08-09	price:10.05	cnt:444
+sell:	2011-08-15	price:10.55	cnt:444
+buy:	2012-07-23	price:9.04	cnt:494
+sell:	2012-08-10	price:9.50	cnt:494
+last_date:	all_money140109.37	all_count:0
